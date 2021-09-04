@@ -1,7 +1,7 @@
 {
     "name": "danh-sach",
     "version": "0.1",
-    "homepage": "https://ttpthao.github.io/danh-sach/",
+    "homepage": "https://daocaman.github.io/danh-sach/",
     "scripts": {
         "deploy": "gh-pages"
     },
