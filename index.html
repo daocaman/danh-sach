@@ -29,6 +29,7 @@
             if (navigator.userAgent.match(/(android|iphone)/gi)) {
                 locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
                 locOrientation('landscape');
+                alert("Check")
             }
         });
         // window.screen.orientation.lock("landscape")
