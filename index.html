@@ -28,9 +28,6 @@
         document.addEventListener("DOMContentLoaded", function() {
             // code
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                // some code..
-                document.body.requestFullscreen();
-
                 locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
                 locOrientation('landscape');
             }
